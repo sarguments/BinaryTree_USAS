@@ -4,6 +4,14 @@
 
 CCmdStart::CCmdStart()
 {
+	// ·£´ý ½Ãµå
+	srand((unsigned int)time(NULL));
+
+	// ÄÜ¼Ö Ã¢ ¶ç¿ì±â
+	AllocConsole();
+	FILE *acStreamOut;
+	freopen_s(&acStreamOut, "CONOUT$", "wt", stdout);
+
 	CCmdStart::CmdDebugText(L"CMD START Init", true);
 }
 
