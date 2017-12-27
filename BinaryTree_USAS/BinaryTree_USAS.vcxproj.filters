@@ -24,9 +24,6 @@
     <ClInclude Include="resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTree_USAS.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="hoxy_Header.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -34,6 +31,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="hoxy_CmdStart.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree_core.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -45,6 +45,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="hoxy_CmdStart.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree_core.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

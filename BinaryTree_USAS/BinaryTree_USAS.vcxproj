@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryTree_USAS.h" />
+    <ClInclude Include="BinaryTree_core.h" />
     <ClInclude Include="hoxy_CmdStart.h" />
     <ClInclude Include="hoxy_Header.h" />
     <ClInclude Include="MemoryPool_G41.h" />
@@ -156,6 +156,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTree_core.cpp" />
     <ClCompile Include="BinaryTree_USAS.cpp" />
     <ClCompile Include="hoxy_CmdStart.cpp" />
     <ClCompile Include="stdafx.cpp">

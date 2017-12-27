@@ -149,8 +149,9 @@ DATA * CMemoryPool<DATA>::Alloc(void)
 			++_useCount;
 
 			char* newMem = (char*)malloc(sizeof(st_BLOCK_NODE));
+			new (newMem) st_BLOCK_NODE;
 
-			st_BLOCK_NODE* newNode = new st_BLOCK_NODE;
+			st_BLOCK_NODE* newNode = (st_BLOCK_NODE*)newMem;
 			newNode->_code = 0x2525252525252525;
 			newNode->_nextNode = nullptr;
 
